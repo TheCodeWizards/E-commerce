@@ -30,3 +30,10 @@
     font-size: 25px !important;
 
 }
+@media screen and (min-width: 400px) {
+
+    .swiper-button-prev, .swiper-button-next{
+      display: none !important;
+    
+}
+}
