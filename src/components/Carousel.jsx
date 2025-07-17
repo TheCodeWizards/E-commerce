@@ -30,7 +30,7 @@ const Carousel = () => {
       modules={[Autoplay, Pagination, Navigation]}
     >
       {
-        data?.slice(0, 7).map((item) => (
+        data?.slice(2, 9).map((item) => (
 
           <SwiperSlide className='bg-gradient-to-r from-[#0f0c29] via-[#302b63]  to-[#24243e] h-full'>
             <div className='h-[607px]  flex md:flex-row flex-col px-4 md:gap-x-15 py-21 md:px-40 justify-between items-center'>
