@@ -20,20 +20,26 @@
         transform: rotate(360deg);
     }
 }
-.swiper-button-prev, .swiper-button-next{
-    color:#fff !important;
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff !important;
     border-radius: 50%;
-    padding: 30px ;
+    padding: 30px;
     background-color: #fb2d3b;
 }
-.swiper-button-prev:after,.swiper-button-next:after{
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
     font-size: 25px !important;
 
 }
-@media screen and (min-width: 400px) {
 
-    .swiper-button-prev, .swiper-button-next{
-      display: none !important;
-    
-}
+@media screen and (max-width: 400px) {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none !important;
+
+    }
 }
